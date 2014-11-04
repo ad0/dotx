@@ -1,0 +1,4 @@
+UXTerm*locale:            true
+UXTerm*metaSendsEscape:   true
+UXTerm*foreground:        rgb:b2/b2/b2
+UXTerm*background:        rgb:08/08/08
