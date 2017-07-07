@@ -1,8 +1,8 @@
-#xsetroot -cursor_name left_ptr
- 
+
 if [ -f $HOME/.Xresources ]; then
   xrdb -merge $HOME/.Xresources
 fi
+
 if [ -f $HOME/.Xmodmap ]; then
   /usr/bin/xmodmap $HOME/.Xmodmap
   /usr/bin/xmodmap $HOME/.Xmodmap
@@ -15,4 +15,3 @@ if [ -f $HOME/images/wallpaper.png ]; then
 fi
 
 exec xmonad
-#exec gnome-session
